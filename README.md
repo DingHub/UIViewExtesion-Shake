@@ -10,3 +10,5 @@ public func shake(_ times: UInt = 10,
                       completion: (()->())? = nil)
 ```
 You can find an Objective-C version here:[UIView+Shanke](https://github.com/DingHub/UIView-Shake/blob/master/README.md)
+
+[screenShot](https://github.com/DingHub/ScreenShots/blob/master/UIView-Shake/0.png)
