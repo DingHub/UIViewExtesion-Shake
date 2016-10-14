@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="UIView_Shake" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0.1" borderStyle="line" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yZZ-uB-jmw">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="Cqs-hE-BGd"/>
+                                    <constraint firstAttribute="width" constant="91" id="eug-vZ-hau"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="3" borderStyle="line" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gRe-fr-bhq">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="9oE-VO-9gb"/>
+                                    <constraint firstAttribute="width" constant="91" id="RhC-SN-DQ2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Times" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H2A-HM-31z">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="L65-fN-zPu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <color key="textColor" red="0.19189773639999999" green="0.72866423229999999" blue="0.2394021583" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Speed" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cVe-7r-5Tv">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="ihG-iF-GJa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <color key="textColor" red="0.19189773639999999" green="0.72866423229999999" blue="0.2394021583" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="10" borderStyle="line" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aez-7v-hxQ">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="5t1-Oc-hYF"/>
+                                    <constraint firstAttribute="width" constant="91" id="a4u-YU-Ylr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Offset" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tzc-xe-cgy">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="nQt-2R-6Ze"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <color key="textColor" red="0.19189773639999999" green="0.72866423229999999" blue="0.2394021583" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M1i-53-KHT">
+                                <color key="backgroundColor" red="0.19189773639999999" green="0.72866423229999999" blue="0.2394021583" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="BX6-gg-3dA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Shake">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="shake:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iPs-4G-VkR"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Direction" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RRE-e0-5he">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="dAJ-IG-paM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <color key="textColor" red="0.19189773639999999" green="0.72866423229999999" blue="0.2394021583" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="1KT-sZ-UQX">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="153" id="cgT-fj-jzk"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="Horizontal"/>
+                                    <segment title="Vertical"/>
+                                </segments>
+                                <color key="tintColor" red="0.19189773639999999" green="0.72866423229999999" blue="0.2394021583" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </segmentedControl>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0mv-iS-YBS">
+                                <color key="backgroundColor" red="0.19189773639999999" green="0.72866423229999999" blue="0.2394021583" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="07g-Yi-pF0"/>
+                                    <constraint firstAttribute="width" constant="42" id="1eq-95-531"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="gRe-fr-bhq" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="59" id="1P8-mc-Vtc"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gRe-fr-bhq" secondAttribute="trailing" constant="4" id="5Cc-Df-KPj"/>
+                            <constraint firstItem="H2A-HM-31z" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="4" id="7Z7-SP-19j"/>
+                            <constraint firstItem="aez-7v-hxQ" firstAttribute="top" secondItem="yZZ-uB-jmw" secondAttribute="bottom" constant="8" id="8Oi-dY-3JP"/>
+                            <constraint firstItem="yZZ-uB-jmw" firstAttribute="top" secondItem="gRe-fr-bhq" secondAttribute="bottom" constant="8" id="9EC-N3-3xH"/>
+                            <constraint firstItem="cVe-7r-5Tv" firstAttribute="leading" secondItem="H2A-HM-31z" secondAttribute="leading" id="CiQ-dz-y2X"/>
+                            <constraint firstItem="yZZ-uB-jmw" firstAttribute="leading" secondItem="gRe-fr-bhq" secondAttribute="leading" id="GHv-4U-anG"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="M1i-53-KHT" secondAttribute="trailing" constant="4" id="Gsy-9a-8i6"/>
+                            <constraint firstItem="Tzc-xe-cgy" firstAttribute="leading" secondItem="cVe-7r-5Tv" secondAttribute="leading" id="KJD-dQ-XTF"/>
+                            <constraint firstItem="cVe-7r-5Tv" firstAttribute="top" secondItem="H2A-HM-31z" secondAttribute="bottom" constant="8" id="UMm-k5-Qfh"/>
+                            <constraint firstItem="RRE-e0-5he" firstAttribute="leading" secondItem="Tzc-xe-cgy" secondAttribute="leading" id="V7i-4T-SDi"/>
+                            <constraint firstItem="0mv-iS-YBS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="glf-y9-Jid"/>
+                            <constraint firstItem="M1i-53-KHT" firstAttribute="top" secondItem="1KT-sZ-UQX" secondAttribute="bottom" constant="8" id="iL7-Lw-BYa"/>
+                            <constraint firstItem="1KT-sZ-UQX" firstAttribute="centerY" secondItem="RRE-e0-5he" secondAttribute="centerY" id="k0k-yV-vpK"/>
+                            <constraint firstItem="RRE-e0-5he" firstAttribute="top" secondItem="Tzc-xe-cgy" secondAttribute="bottom" constant="3" id="kde-bE-0wx"/>
+                            <constraint firstItem="Tzc-xe-cgy" firstAttribute="top" secondItem="cVe-7r-5Tv" secondAttribute="bottom" constant="8" id="oBU-4K-jiT"/>
+                            <constraint firstItem="H2A-HM-31z" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="59" id="olU-7A-Mbb"/>
+                            <constraint firstItem="aez-7v-hxQ" firstAttribute="leading" secondItem="yZZ-uB-jmw" secondAttribute="leading" id="szI-WM-0Ud"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="1KT-sZ-UQX" secondAttribute="trailing" constant="4" id="teP-U4-y1j"/>
+                            <constraint firstItem="0mv-iS-YBS" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="23" id="x6K-aw-tRM"/>
+                            <constraint firstItem="M1i-53-KHT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="4" id="zjH-oS-an7"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="shakeDirection" destination="1KT-sZ-UQX" id="pV5-Wf-gXN"/>
+                        <outlet property="shakeView" destination="0mv-iS-YBS" id="xV1-QW-SRb"/>
+                        <outlet property="textOffset" destination="aez-7v-hxQ" id="zND-NR-Trt"/>
+                        <outlet property="textSpeed" destination="yZZ-uB-jmw" id="3SP-Fb-i1U"/>
+                        <outlet property="textTimes" destination="gRe-fr-bhq" id="3vI-VS-5Sg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="390" y="-438"/>
+        </scene>
+    </scenes>
+</document>
