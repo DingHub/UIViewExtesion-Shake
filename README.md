@@ -7,4 +7,4 @@ public func shake(_ times: UInt = 10,
                       direction: ShakeDirection = .horizontal,
                       completion: (()->())? = nil)
 ```
-You can find an Objective-C version here:[UIView+Shanke]()
+You can find an Objective-C version here:[UIView+Shanke](https://github.com/DingHub/UIView-Shake/blob/master/README.md)
