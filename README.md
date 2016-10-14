@@ -1,5 +1,7 @@
 # UIViewExtesion-Shake
 Extension of UIView to add a handy method for shake.
+Thaks for [UIView+Shake](https://github.com/andreamazz/UIView-Shake) and [UITextFiled+Shake](https://github.com/andreamazz/UITextField-Shake)<br>
+
 ```
 public func shake(_ times: UInt = 10,
                       offset: CGFloat = 5,
