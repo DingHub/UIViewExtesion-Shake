@@ -39,9 +39,7 @@ class ViewController: UIViewController {
     
     @IBAction func shake(_ sender: AnyObject) {
         let direction: ShakeDirection = shakeDirection.selectedSegmentIndex == 0 ? .horizontal : .vertical
-        guard let times = UInt(textTimes.text!) else {
-            return
-        }
+        guard let times = UInt(textTimes.text!) else { return }
         shakeView.shake(times, offset: CGFloat((textOffset.text! as NSString).floatValue), speed: TimeInterval((textSpeed.text! as NSString).floatValue), direction: direction)
     }
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
