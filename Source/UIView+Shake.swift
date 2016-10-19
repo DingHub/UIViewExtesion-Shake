@@ -40,13 +40,7 @@ public extension UIView {
                 })
                 return
             }
-            self.p_shake(times - 1,
-                         currentTimes: currentTimes + 1,
-                         flag: flag * (-1),
-                         offset: offset,
-                         speed: speed,
-                         direction: direction,
-                         completion: completion)
+            self.p_shake(times - 1, currentTimes: currentTimes + 1, flag: flag * (-1), offset: offset, speed: speed, direction: direction, completion: completion)
         }
     }
 }
